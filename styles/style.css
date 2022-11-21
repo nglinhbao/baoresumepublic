@@ -1,0 +1,650 @@
+header {
+    position: fixed;
+    background: #172135;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+} 
+
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+#logo {
+    position: relative;
+    top: 15px;
+    left: 50px;
+    width: 4.5%;
+    height: auto;
+    z-index: 2;
+}
+.navigation {
+    position: relative;
+    top: -40%;
+    bottom: 100px;
+    word-spacing: 3.5em;
+    font-size: 1.2em;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height:100px;
+}
+
+a[href="#professional"], a[href="#experience"], a[href="#portfolio"], a[href="#contact"] {
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    max-width: 1920px;
+}
+
+.content {
+    width: 75%;
+    margin: auto;
+}
+
+* {
+    color: white;
+}
+
+a:hover {
+    color: #f4ea37;
+}
+
+.heading {
+    font-size:3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.heading_des {
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+
+.number {
+    display: inline;
+    color:#a6a6a6;
+}
+
+#my_photo {
+    position: absolute;
+    top: 80px;
+    float: right;
+    opacity: 0.5;
+    width: 58%;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    overflow-x: hidden;
+}
+
+.introduction {
+    display: inline-block;
+    width: 40%;
+    padding-top: 100px;
+    height: 800px;
+    margin-left: 90px;
+}
+
+.intro {
+    float: left;
+    font-size: 6em;
+    font-weight:bold;
+}
+
+.intro_des {
+    float: left;
+    font-weight: lighter;
+    font-size: 1.3em;
+}
+
+.yellow {
+    color: #f4ea37;
+    display: inline;
+}
+
+.inline {
+    display: inline;
+}
+
+.box {
+    color: black;
+    background-color: #a6a6a6;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding: 80px;
+    border-radius: 2%;
+}
+
+.box p {
+    padding-bottom: 30px;
+}
+
+button {
+    border: 2px solid #f4ea37;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: #f4ea37;
+}
+
+.section {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+footer {
+    clear: both;
+    padding-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.platform {
+    word-spacing: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+footer img {
+    width: 3%;
+    height:auto;
+}
+
+.professional p {
+    display: inline-block;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    float: right;
+    margin-bottom: 50px;
+    width: 60%;
+    background-color: #a6a6a6;
+}
+
+.cos10009 {
+    width: 90%;
+    color: black;
+    background-color: #f4ea37;
+}
+
+.cos10004 {
+    width: 95%;
+    color: black;
+    background-color: #f4ea37;
+}
+
+.cos10026 {
+    width: 85%;
+    color: black;
+    background-color: #f4ea37;
+}
+
+.tne10006 {
+    width: 80%;
+    color: black;
+    background-color: #f4ea37;
+}
+
+.ml {
+    width: 50%;
+    color: black;
+    background-color: #f4ea37;
+}
+
+.algorithms {
+    width: 80%;
+    color: black;
+    background-color: #f4ea37;
+}
+
+.timeline {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+}
+  
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #f4ea37;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+.timeline_left {
+    text-align: right;
+    right: -10%; 
+}
+
+.timeline_right {
+    text-align: left;
+    right: -55%;
+}
+
+.timeline_left, .timeline_right {
+    margin-top: 70px;
+    position: relative;
+    background-color: inherit;
+    width: 35%;
+}
+
+.timeline_container::after {
+    content: '';
+    position:absolute;
+    background-color: #f4ea37;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.timeline_container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 109.5%;
+    background-color: white;
+    border: 4px solid #f4ea37;
+    top: 0px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline_right::after {
+    left: -19%;
+}
+
+.position_des {
+    font-weight: lighter;
+}
+
+.year_of_work {
+    color:#f4ea37;
+}
+
+.big {
+    position:absolute;
+    display: block;
+    white-space: nowrap;
+    color: #f4ea37;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 200px;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-top: 230px;
+    margin-left: -190px;
+    z-index: -2;
+    transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
+    will-change: transform;
+    backface-visibility: hidden;
+    overflow-x: hidden;
+}
+
+.portfolio_container {
+    display: inline-block;
+    background-color: #141E30;
+    border-radius: 7%;
+    width: 30%;
+    margin: 30px;
+    padding: 30px;
+}
+
+.portfolio1 {
+    transform: rotate(-10deg);
+    float: left;
+}
+
+.portfolio2 {
+    transform: rotate(10deg);
+    float: right;
+}
+
+.work {
+    text-align: center;
+}
+
+.portfolio3 {
+    margin-top: 50px;
+    transform: rotate(5deg);
+    float: left;
+}
+
+.portfolio4 {
+    transform: rotate(-7deg);
+}
+
+.portfolio_content h2, .portfolio_content p {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #f4ea37;
+}
+
+.submit {
+    border: 2px solid #f4ea37;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    clear: both;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    color: black;
+    background-color: #f4ea37;
+}
+
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	padding: 7px;
+	margin: 0px;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+    width: 100%;
+	height: 100px;
+}
+
+.form-style-1 .required{
+	color:red;
+}
+
+input, select, textarea {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.contact form {
+    float: right;
+}
+
+.contact_des {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    margin-top: 140px;
+}
+
+.highlight {
+    color: red;
+}
+
+@media screen and (max-width: 1400px) {
+    .navigation {
+        top: -20px;
+    }
+    #logo {
+        top: 22px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .portfolio_container {
+        width: 30%;
+    }
+    .timeline_container::after {
+        left: 107.5%;
+    }
+    
+    .timeline_right::after {
+        left: -20.5%;
+    }
+    .navigation {
+        top: -23px;
+    }
+    #logo {
+        top: 22px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navigation {
+        top: -15px;
+    }
+    #my_photo {
+        width: 85%;
+        height: auto;
+        left: 30%;
+    }
+    .timeline_container::after {
+        left: 107%;
+    }
+    
+    .timeline_right::after {
+        left: -21.5%;
+    }
+    .intro {
+        float: left;
+        font-size: 5em;
+        font-weight:bold;
+    }
+    
+    .intro_des {
+        float: left;
+        font-weight: lighter;
+        font-size: 1.3em;
+    }
+    .big {
+        margin-top: 400px;
+        margin-left: -400px;
+    }
+    .portfolio_container {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navigation {
+        visibility: hidden;
+        display: none;
+    }
+    #logo {
+        display: flex;
+        width: 10%;
+        left: 45%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        top: 20px;
+    }
+    .portfolio_container {
+        width: 50%;
+    }
+    .portfolio3 {
+        margin-left: 50px;
+    }
+    #my_photo {
+        width: 90%;
+        height: auto;
+        left: 30%;
+    }
+    .introduction {
+        margin-top: 50px;
+        width: 30%;
+        padding-top: 100px;
+        margin-left: 60px;
+    }
+    .intro {
+        font-size: 4.5em;
+    }
+    
+    .intro_des {
+        font-size: 1.3em;
+    }
+
+    /* Place the timelime to the left */
+    .timeline {
+        float: left;
+        margin-top: 0px;
+    }
+    .timeline::after {
+        left: 25px;
+    }
+
+    .timeline_left {
+        text-align: left;
+        left: 0%;
+    }
+    
+    .timeline_right {
+        text-align: left;
+    }
+    
+    /* Full-width containers */
+    .timeline_container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    
+    /* Make sure that all arrows are pointing leftwards */
+    .timeline_container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+  
+    /* Make sure all circles are at the same spot */
+    .timeline_left::after, .timeline_right::after {
+        left: 11px;
+    }
+    
+    /* Make all right containers behave like the left ones */
+    .timeline_right {
+        left: 0%;
+    }
+    .contact form {
+        float: none;
+        width: 100%;
+    }
+    
+    .contact_des {
+        display: inline-block;
+        float: none;
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .contact {
+        margin-top: 1500px;
+    }
+    footer {
+        padding-top: 0px;
+    }
+    footer img {
+        width: 7%;
+        height:auto;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    * {
+        font-size: calc(100% - 2%);
+    }
+    .portfolio_container {
+        width: 70%;
+    }
+    #my_photo {
+        width: 150%;
+        height: auto;
+        left: -10%;
+    }
+    .big {
+        font-size: 10em;
+        margin-top: 400px;
+        margin-left: -600px;
+    }
+    .introduction {
+        width: 30%;
+        margin-top: 300px;
+        margin-bottom: -300px;
+        margin-left: 30px;
+    }
+    .intro {
+        font-size: 4.5em;
+    }
+    
+    .intro_des {
+        font-size: 1em;
+    }
+    .box {
+        width: 70%;
+        padding: 35px;
+        border-radius: 2%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .big {
+        font-size: 7em;
+        margin-top: 500px;
+        margin-left: -600px;
+}
